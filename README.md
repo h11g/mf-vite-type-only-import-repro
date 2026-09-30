@@ -53,6 +53,7 @@ be a remote, so the scanner can skip it and keep going.
 ## Fix
 
 Wrap the `ctx.resolve` call in `collectRemoteDependencies` in `try`/`catch` and `continue` on failure.
+Upstream fix: [module-federation/vite#1382](https://github.com/module-federation/vite/pull/1382).
 
 ## Files
 
